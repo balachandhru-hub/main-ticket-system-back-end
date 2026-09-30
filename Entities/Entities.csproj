@@ -1,0 +1,145 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="30.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\Role.csv" />
+    <EmbeddedResource Include="Migrations\Feature.csv" />
+    <EmbeddedResource Include="Migrations\RoleFeatureMapping.csv" />
+    <EmbeddedResource Include="Migrations\User.csv" />
+    <EmbeddedResource Include="Migrations\UserRoleMapping.csv" />
+    <EmbeddedResource Include="Migrations\Person.csv" />
+    <EmbeddedResource Include="Migrations\Metadata.csv" />
+    <EmbeddedResource Include="Migrations\ApiKey.csv" />
+    <EmbeddedResource Include="Migrations\Config.csv" />
+    <EmbeddedResource Include="Migrations\Domain.csv" />
+    <EmbeddedResource Include="Migrations\ApiConfig.csv" />
+    <EmbeddedResource Include="Migrations\PlanConfigDefaults.csv" />
+    <EmbeddedResource Include="Migrations\DiscountCoupn.csv" />
+    <EmbeddedResource Include="Migrations\EmailContent.csv" />
+    <EmbeddedResource Include="Migrations\UserModelName.csv" />
+    <EmbeddedResource Include="Migrations\Link.csv" />
+    <EmbeddedResource Include="Migrations\AribaCurrency.csv" />
+    <EmbeddedResource Include="Migrations\ContractCustomType.csv" />
+    <EmbeddedResource Include="Migrations\CountryList.csv" />
+    <EmbeddedResource Include="Migrations\UserAppMapping.csv" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Migrations\Role.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\Role.csv</Link>
+    </Content>
+
+    <Content Include="Migrations\Feature.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\Feature.csv</Link>
+    </Content>
+
+    <Content Include="Migrations\RoleFeatureMapping.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\RoleFeatureMapping.csv</Link>
+    </Content>
+
+    <Content Include="Migrations\User.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\User.csv</Link>
+    </Content>
+
+    <Content Include="Migrations\UserRoleMapping.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\UserRoleMapping.csv</Link>
+    </Content>
+
+    <Content Include="Migrations\Person.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\Person.csv</Link>
+    </Content>
+
+    <Content Include="Migrations\Metadata.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\Metadata.csv</Link>
+    </Content>
+
+    <Content Include="Migrations\ApiKey.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\ApiKey.csv</Link>
+    </Content>
+
+    <Content Include="Migrations\Config.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\Config.csv</Link>
+    </Content>
+    <Content Include="Migrations\UserModelName.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\UserModelName.csv</Link>
+    </Content>
+    <Content Include="Migrations\ContractCustomType.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\ContractCustomType.csv</Link>
+      </Content>
+
+    <Content Include="Migrations\Domain.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\Domain.csv</Link>
+    </Content>
+
+    <Content Include="Migrations\ApiConfig.csv" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\ApiConfig.csv</Link>
+    </Content>
+
+    <Content Include="Migrations\PlanConfigDefaults.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\PlanConfigDefaults.csv</Link>
+    </Content>
+
+    <Content Include="Migrations\DiscountCoupn.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\DiscountCoupn.csv</Link>    
+    </Content>
+
+    <Content Include="Migrations\EmailContent.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\EmailContent.csv</Link>    
+    </Content>
+    <Content Include="Migrations\Link.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\Link.csv</Link>
+    </Content>
+    <Content Include="Migrations\AribaCurrency.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\AribaCurrency.csv</Link>
+    </Content>
+    <Content Include="Migrations\CountryList.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>Entities\Migrations\CountryList.csv</Link>
+     </Content>
+     <Content Include="Migrations\UserAppMapping.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <Link>Entities\Migrations\UserAppMapping.csv</Link>
+      </Content>
+  </ItemGroup>
+
+</Project>

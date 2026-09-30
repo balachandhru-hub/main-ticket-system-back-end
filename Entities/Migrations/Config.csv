@@ -1,0 +1,8 @@
+Id,Key,Value,Description
+0c009b01-3cf1-4794-8d7a-ab08c1bcbf8b,MAX_TICKET_CREATE,10,Maximum Ticket Creation for the User who doesn't have any Plan
+9a3f2609-a57d-4d03-a5a0-06e9fb76b1fc,HOURS_REDUCE_TICKET,5,Decrease of hours for one ticket creation
+9616cee1-f44f-4ccd-bcdb-b8e801e79b02,GOLD_HOURS_VALUE,500,Gold plan ticket hours
+8ea89362-1aab-4419-b29f-d1eb78b54d15,PLATINUM_HOURS_VALUE,1000,Platinum plan ticket hours
+49b1566f-55c0-4032-aa42-852e683833e0,TOTAL_NUMBER_OF_HOURS,168,If number consultens is 1, then total number of hours is 168
+1ce7c4b2-ad11-49d4-8b80-2d26d4d564b0,DISCOUNT_MIN,1,Minimum Discount Percentage
+7eecb6ca-4152-49a7-8922-06bf918dbff9,DISCOUNT_MAX,50,Maximum Discount Percentage

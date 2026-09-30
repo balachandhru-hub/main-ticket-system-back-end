@@ -1,0 +1,8 @@
+Id,CustomType,Value,Description
+7f9be59c-7024-410c-a02b-f970d8503750,ContractType,CW23285,Contract type ProcurementTemplate
+2eeb020e-5d93-456c-b4b2-9260596f83ef,HierarchicalType,MasterAgreement,Main parent agreement
+7fe46b11-bbbe-496f-b916-88357affbcf9,HierarchicalType,StandAlone,Independent agreement
+1cd15051-380d-4be5-93cb-0be347581afe,HierarchicalType,SubAgreement,Child agreement
+12ab0a4a-2041-4762-83d9-4ac6869132a4,ExpirationTermType,Fixed,Ends on set date
+16d13e0c-6767-49ad-8f7e-76b1e2e42c9a,ExpirationTermType,Perpetual,No end date
+b551d3ea-5ed0-440c-8b24-b9274cdf21d9,ExpirationTermType,AutoRenew,Renews automatically

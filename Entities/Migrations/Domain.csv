@@ -1,0 +1,2 @@
+Id,Name,WebsiteUrl,RegistrationNumber,HeadquartersLocation,CountriesOfOperation,BusinessType,AribaRealmId,IndustryType,BillingAddress,GST_VAT,TaxApplicable,NumberOfUser,SupportAdminName,SupportAdminEmail,SupportAdminTimeZone,SupportAdminPhoneNo,ConnectERPSystem,Designation,AribaNetworkId
+9db82795-043e-43ca-b4bf-ee9cb16967a3,CAS,https://chervic.in/,REG123,Bangalore,INDIA,IT,ARIBA123,Technology,WhiteField Bangalore,GST123,true,50,Admin Name,admin@example.com,UTC,+1234567890,ERP1,Support Admin,123E
